@@ -1,0 +1,9 @@
+fastapi 
+uvicorn 
+sqlalchemy 
+python-dotenv
+pydantic 
+pandas 
+matplotlib 
+seaborn 
+apscheduler
