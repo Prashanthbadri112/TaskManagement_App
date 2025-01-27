@@ -27,7 +27,7 @@ async def start_up_event():
     create_table()
     
     #scheduler = BackgroundScheduler()
-    #scheduler.add_job(controllers.notify_due_tasks, args=[SessionLocal()], trigger="interval", seconds=10)
+    #scheduler.add_job(notify.notify_due_tasks, args=[SessionLocal()], trigger="interval", seconds=10)
     #scheduler.start()
 
 
